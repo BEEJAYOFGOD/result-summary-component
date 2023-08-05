@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>result-summary-component</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="card">
+            <section class="left-section">
+                <h2 class="left-section__title">Your Result</h2>
+                <div class="score-aggregate">
+                    <p class="score-aggregate__value">76</p>
+
+                    <p class="overall">of 100</p>
+                </div>
+                <p class="remarks">Great</p>
+                <p class="comment">
+                    Your Scored higher than 65% of the people who have taken
+                    these tests.
+                </p>
+            </section>
+
+            <section class="right-section">
+                <h2 class="right-section__title">Summary</h2>
+                <div class="summary-subjects">
+                    <div class="summary-subject reaction">
+                        <div class="img">
+                            <img
+                                src="/assets/images/icon-reaction.svg"
+                                alt=""
+                            /><span class="summary-subject__name" id="reaction"
+                                >Reaction</span
+                            >
+                        </div>
+                        <div>
+                            <span class="subject-score">80</span>
+                            <span class="overtotal"> / 100 </span>
+                        </div>
+                    </div>
+                    <div class="summary-subject memory">
+                        <div class="img">
+                            <img
+                                src="/assets/images/icon-memory.svg"
+                                alt=""
+                            /><span class="summary-subject__name" id="memory"
+                                >Memory</span
+                            >
+                        </div>
+                        <div>
+                            <span class="subject-score">92</span>
+                            <span class="overtotal">/ 100 </span>
+                        </div>
+                    </div>
+                    <div class="summary-subject verbal">
+                        <div class="img">
+                            <img
+                                src="/assets/images/icon-verbal.svg"
+                                alt=""
+                            /><span class="summary-subject__name" id="verbal"
+                                >Verbal</span
+                            >
+                        </div>
+                        <div>
+                            <span class="subject-score">61 </span>
+                            <span class="overtotal"> / 100 </span>
+                        </div>
+                    </div>
+                    <div class="summary-subject visual" id="visual">
+                        <div class="img">
+                            <img
+                                src="/assets/images/icon-visual.svg"
+                                alt=""
+                            /><span class="summary-subject__name">Visual</span>
+                        </div>
+                        <div>
+                            <span class="subject-score">72</span>
+                            <span class="overtotal"> / 100 </span>
+                        </div>
+                    </div>
+
+                    <div class="continue">
+                        <button>Continue</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
