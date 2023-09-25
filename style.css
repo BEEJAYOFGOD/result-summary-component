@@ -14,12 +14,14 @@
     font-family: hakenmedium;
     src: url(/assets/fonts/static/HankenGrotesk-Medium.ttf);
 }
+
+* {
+    border: 1px solid red;
+}
 body {
-    display: flex;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    height: 98vh;
     font-family: haken;
 }
 
@@ -81,7 +83,6 @@ body {
 
 .right-section__title {
     margin-bottom: 1px;
-    margin-left: 25px;
     font-family: haken;
     font-size: 28px;
 }
@@ -947,4 +948,34 @@ body {
 }
 #verbal {
     color: green;
+}
+
+@media (max-width: 760px) {
+    .card {
+        flex-direction: column;
+        /* overflow: hidden; */
+        height: 100%;
+        padding: 0px;
+        box-shadow: none;
+    }
+    .left-section {
+        width: 100%;
+        padding: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .right-section {
+        padding: 0;
+        width: 80%;
+        margin: 0 auto;
+        height: 10%;
+    }
+    body {
+        height: 100%;
+    }
+    .right-section__title {
+        margin-left: 0px;
+    }
 }
