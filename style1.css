@@ -1,0 +1,10 @@
+div {
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}
+body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
